@@ -8,7 +8,7 @@ MODE_BUSCA = 0
 MODE_SUBNET = 1
 MODE_GROUP = 2
 
-config_file = "dhcpd.conf"
+config_file = "/home/musashi/python/OB-pipemenu/dhcpd.conf"
 
 fp = open(config_file, "r")
 lineas = fp.readlines()
@@ -94,6 +94,6 @@ def print_label(titulo, comando):
 print '<?xml version="1.0" encoding="UTF-8"?>'
 print '<openbox_pipe_menu>'
 print '<menu id="prueba" label="python">'
-#print_label("sakura", "etiqueta")
+print_label("sakura", "etiqueta")
 print '</menu>'
 print '</openbox_pipe_menu>'
